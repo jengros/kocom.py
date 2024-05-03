@@ -74,8 +74,8 @@ room_h_dic = {
 
 
 def init_mqttc():
-    mqttc = mqtt.Client()
-    #mqttc = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
+    #mqttc = mqtt.Client()
+    mqttc = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
     mqttc.on_message = mqtt_on_message
     mqttc.on_subscribe = mqtt_on_subscribe
     mqttc.on_connect = mqtt_on_connect
