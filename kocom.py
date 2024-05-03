@@ -55,8 +55,7 @@ room_t_dic = {
     "00": "livingroom",
     "01": "room1",
     "02": "room2",
-    "03": "room3",
-    "04": "room4",
+    "03": "room3"
 }
 
 type_h_dic = {v: k for k, v in type_t_dic.items()}
@@ -68,8 +67,7 @@ room_h_dic = {
     "myhome": "00",
     "room1": "01",
     "room2": "02",
-    "room3": "03",
-    "room4": "04",
+    "room3": "03"
 }
 
 # mqtt functions ----------------------------
